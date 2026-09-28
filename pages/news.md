@@ -14,7 +14,7 @@ position: 3
   <p style="margin: 0 0 0.3rem; font-weight: bold; color: #888; font-size: 0.9em;">Month 20XX</p>
   <h3 style="margin: 0 0 0.5rem;">[Event Title — e.g. Graduation / Conference Name]</h3>
   <p>[Brief description of the event.]</p>
-  <img src="/assets/img/news/event1.jpg" alt="Event photo"
+  <img src="{{ '/assets/img/news/event1.jpg' | relative_url }}" alt="Event photo"
        style="max-width: 100%; border-radius: 6px; margin-top: 0.5rem;" />
 </div>
 
@@ -23,7 +23,7 @@ position: 3
   <p style="margin: 0 0 0.3rem; font-weight: bold; color: #888; font-size: 0.9em;">Month 20XX</p>
   <h3 style="margin: 0 0 0.5rem;">[Event Title]</h3>
   <p>[Brief description.]</p>
-  <img src="/assets/img/news/event2.jpg" alt="Event photo"
+  <img src="{{ '/assets/img/news/event2.jpg' | relative_url }}" alt="Event photo"
        style="max-width: 100%; border-radius: 6px; margin-top: 0.5rem;" />
 </div>
 
@@ -32,7 +32,7 @@ position: 3
   <p style="margin: 0 0 0.3rem; font-weight: bold; color: #888; font-size: 0.9em;">Month 20XX</p>
   <h3 style="margin: 0 0 0.5rem;">[Event Title]</h3>
   <p>[Brief description.]</p>
-  <img src="/assets/img/news/event3.jpg" alt="Event photo"
+  <img src="{{ '/assets/img/news/event3.jpg' | relative_url }}" alt="Event photo"
        style="max-width: 100%; border-radius: 6px; margin-top: 0.5rem;" />
 </div>
 

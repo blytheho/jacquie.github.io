@@ -4,7 +4,7 @@ title: About
 ---
 
 <div style="display: flex; gap: 0.1rem; align-items: flex-start; flex-wrap: wrap; margin-bottom: 3rem;">
-  <img src="/assets/img/profile.jpg"
+  <img src="{{ '/assets/img/profile.jpg' | relative_url }}"
        alt="Profile photo"
        style="max-width: 400px; border-radius: 8px; flex-shrink: 0;" />
   <div>

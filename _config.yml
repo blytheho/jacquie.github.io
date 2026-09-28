@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-baseurl: ""                                              # e.g. "/yourname.github.io" or "" if using custom domain
-url: "https://YOUR_USERNAME.github.io"                  # ← your GitHub Pages URL
+baseurl: "/jacquie.github.io"                            # repo name as sub-path
+url: "https://blytheho.github.io"                       # your GitHub Pages URL
 
 # THEME-SPECIFIC CONFIGURATION
 title: Qijie (Jacquie) He                                        # ← your name or site title
