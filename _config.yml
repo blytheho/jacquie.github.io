@@ -1,19 +1,19 @@
 # SITE CONFIGURATION
-baseurl: "/Type-on-Strap"
-url: "https://sylhare.github.io"
+baseurl: ""                                              # e.g. "/yourname.github.io" or "" if using custom domain
+url: "https://YOUR_USERNAME.github.io"                  # ← your GitHub Pages URL
 
 # THEME-SPECIFIC CONFIGURATION
-title: Type on Strap                                    # site's title
-description: "A website with blog posts and pages"      # used by search engines
-avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
+title: Qijie (Jacquie) He                                        # ← your name or site title
+description: "PhD student in XXX at XXX University"    # ← shown in search engines & browser tab
+avatar: assets/img/selfieicon.png                         # ← 换成你的照片后改为 assets/img/profile.jpg
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
 # Header and footer text
-header_text: Change <code>header_text</code> in <code>_config.yml</code>  # Change Blog header text
-header_feature_image: assets/img/header/triangular.jpeg
+header_text: ""                                         # ← headline shown on the blog/research listing page
+header_feature_image: assets/img/header/triangular.jpeg # ← banner image (or remove this line)
 header_feature_image_responsive: true
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+  © Qijie (Jacquie) He · Built with <a href="https://jekyllrb.com/">Jekyll</a>
 
 # Blog
 excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
@@ -32,12 +32,6 @@ color_theme: auto                                       # auto, dark or light
 # PAGINATION
 paginate: 5
 paginate_path: "/blog/page:num"
-
-# PORTFOLIO
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:name
 
 # BUILD SETTINGS
 sass:
