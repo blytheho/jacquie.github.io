@@ -3,7 +3,7 @@ layout: page
 title: Gallery
 permalink: /gallery/
 gallery_path: "assets/img/gallery"
-position: 4
+position: 6
 ---
 
 {% include gallery.html gallery_path=page.gallery_path %}
