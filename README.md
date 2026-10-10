@@ -7,7 +7,7 @@ My personal academic website built with [Jekyll](https://jekyllrb.com/) and the 
 - **About** (`/`) — Bio, research interests, education
 - **Research** (`/research/`) — Project showcase with thumbnails and keywords
 - **News** (`/news/`) — Academic events timeline with photos
-- **Gallery** (`/gallery/`) — Lifestyle and travel photos
+- **Gallery** (`/gallery/`) — PPhotos
 
 ## Local Development
 
